@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday ❤️</title>
+
+<style>
+body{
+text-align:center;
+background:black;
+color:white;
+font-family:sans-serif;
+}
+button{
+padding:15px;
+font-size:20px;
+background:pink;
+border:none;
+border-radius:10px;
+}
+img{
+width:200px;
+border-radius:20px;
+margin-top:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>🎂 Happy Birthday Sayang 🎂</h1>
+
+<button onclick="buka()">Klik Aku 💖</button>
+
+<div id="isi" style="display:none;">
+<p>Dari semua hal yang aku syukuri,<br>
+kamu salah satu yang paling indah ❤️</p>
+
+<img src="FOTO-KAMU.jpg">
+
+<p>Semoga semua yang kamu semogakan,<br>
+menemukan jalannya ✨</p>
+</div>
+
+<audio id="musik" src="lagu.mp3"></audio>
+
+<script>
+function buka(){
+document.getElementById("isi").style.display="block";
+document.getElementById("musik").play();
+}
+</script>
+
+</body>
+</html>
